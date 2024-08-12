@@ -56,7 +56,8 @@ class _LoginwebviewWidgetState extends State<LoginwebviewWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(10.0, 10.0, 10.0, 10.0),
                     child: FlutterFlowWebView(
-                      content: 'https://flutter.dev',
+                      content:
+                          'https://cloudxaustralia.b2clogin.com/cloudxaustralia.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_morsegoogle&client_id=25613626-d70e-4fa2-ae34-8d057ffe49a3&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A65108%2F&scope=openid&response_type=code&prompt=login',
                       width: 1286.0,
                       height: 899.0,
                       verticalScroll: false,

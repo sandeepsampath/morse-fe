@@ -178,7 +178,7 @@ class _LoginWidgetState extends State<LoginWidget>
                               child: FFButtonWidget(
                                 onPressed: () async {
                                   await launchURL(
-                                      'https://cloudxaustralia.b2clogin.com/cloudxaustralia.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_morsegoogle&client_id=25613626-d70e-4fa2-ae34-8d057ffe49a3&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fapp.flutterflow.io%2Frun%2FpTfVGPygzdmOcfO3qeHH&scope=openid&response_type=code&prompt=login');
+                                      'https://cloudxaustralia.b2clogin.com/cloudxaustralia.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_morsegoogle&client_id=25613626-d70e-4fa2-ae34-8d057ffe49a3&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A65108%2F&scope=openid&response_type=code&prompt=login');
                                 },
                                 text: 'Sign In',
                                 options: FFButtonOptions(
